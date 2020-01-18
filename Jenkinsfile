@@ -14,12 +14,7 @@ pipeline {
         stage('Deploy') { 
             steps {
                 echo "You have done your first pipeline"
-            }
-         stage('Done') { 
-            steps {
-                echo "You have done your first pipeline"
-            }   
+            }  
         }
     }
  }
-}   
